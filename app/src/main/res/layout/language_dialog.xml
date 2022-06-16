@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_uzbekLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:src="@drawable/uzbekistan_flag"
+            android:layout_marginStart="50dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/o_zbekcha"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_russian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:src="@drawable/russian_flag"
+            android:layout_marginStart="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/russian"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:src="@drawable/england_flag"
+            android:layout_marginStart="50dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/english"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

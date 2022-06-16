@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExchangeApp</string>
+    <string name="internetda_xatolik_yuz_berdi">Internetda xatolik yuz berdi</string>
+    <string name="date_16_11_2021">Date: 16.11.2021</string>
+    <string name="valyutalar_kursi">Valyutalar kursi</string>
+    <string name="valyutalar_english">Currency Rate</string>
+    <string name="valyutalar_russian">Курсы валют</string>
+    <string name="usd">USD</string>
+    <string name="_10_549">10.549</string>
+    <string name="united_states_of_america">United States of America</string>
+    <string name="russian">Руский</string>
+    <string name="english">English</string>
+    <string name="_15_82">-15.82</string>
+    <string name="text_uz">🇺🇿</string>
+    <string name="o_zbekcha">O\'zbekcha</string>
+    <string name="date">Date</string>
+</resources>
